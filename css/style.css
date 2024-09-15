@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: #A9CB38;
+}
+main{
+    position: relative;
+    left: 200px;
+    background: #A9CB38;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border-radius: 20px;
+    width: 10%;
+    padding: 25vh;
+    height: 30vh;
+    background: white;
+    justify-content: center;
+
+}
+.logo{
+    position: relative;
+    flex-wrap: wrap;
+    bottom: 150px;
+    right: 11vh;
+    height: 19vh;
+    width: 200%;
+    background-image: url(https://i.pinimg.com/564x/23/d3/3c/23d33ce96a691498ff89c8a0a7280093.jpg);
+    background-size: cover;
+}  
+h2{
+    text-align: center;
+    position: relative;
+    right: 430px;
+    top: 26vh;
+}
+.x1{
+    position: relative;
+    bottom: 159px;
+    left: 37px;
+}
+input{
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 80%;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    top: 200px;
+    right: 420px;
+   
+}
+button{
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #0077FF;
+    list-style: none;
+    position: relative;
+    top: 200px;
+    flex-wrap: wrap;
+    right: 410px;
+    border: none;
+}
+a{
+    font-size: 1.5rem;
+    position: relative;
+    top: 210px;
+    right: 305px;
+    list-style: none;
+    text-decoration: none;
+}
+.x4 ul{
+    display: flex;
+    gap: 20px;
+    right: 54vh;
+    position: relative;
+    top: 240px;
+    font-size: 1.2rem;
+}
+li{
+    list-style: none;
+}
